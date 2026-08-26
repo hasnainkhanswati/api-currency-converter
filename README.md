@@ -1,0 +1,1 @@
+Built to understand third-party API integration, asynchronous data fetching, and JSON parsing. This project solidifies the foundational knowledge required for interacting with external web services and handling dynamic data securely.
