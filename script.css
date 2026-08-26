@@ -1,0 +1,102 @@
+*{
+ margin: 0%;
+ padding: 0%;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #90CAF9;
+}
+.container{
+    margin-top: 15vh;
+    min-height: 55vh;
+    width: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #E3F2FD;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+form, select, button, input{
+    width: 100%;
+    border: none;
+  
+   
+}
+form input{
+    border: 1px solid lightgrey;
+font-size: 1.1rem;
+    padding: 1.1rem;
+    inline-size: 90%;
+    border-radius: 5px;
+}
+
+.currency{
+    margin-top: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency img{
+    font-size: 1rem;
+    max-width: 2.75rem;
+}
+.from-currency, .to-currency{
+    display:flex;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    justify-content: center;
+    background-color: #E3F2FD;
+   gap: 10px;
+}
+.container h1 {
+    
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #1e293b;
+    inline-size: 80%;
+    border-bottom: 2px solid #e2e8f0;
+    text-align: center;
+    box-shadow:#1976d2;
+    display:flex;
+  
+}
+.currency i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+form button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2196f3;
+    cursor: pointer;
+    inline-size: 70%;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: #1976d2;
+}
+.result {
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin-top: 20px;
+    text-align: center;
+}
